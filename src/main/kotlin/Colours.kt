@@ -58,4 +58,8 @@ class Colours {
     //TODO Write THREE additional functions of your choice that will perform some sort of
     // analysis on the colours list.
 
+    fun allColoursExceptTheFirst3() : List<String>{
+        return colours.drop(3)
+        //returns all colours except the first 3
+    }
 }

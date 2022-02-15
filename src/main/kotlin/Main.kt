@@ -68,9 +68,6 @@ fun main(args: Array<String>){
         """.trimMargin(">")
     println(coloursText)
 
-
-
-
         //    Colour: Red
         //    Colour: Orange
         //    ...
@@ -78,4 +75,5 @@ fun main(args: Array<String>){
 
     //TODO for the three additional functions you wrote in Colours.kt, print the returned value here.
 
+    println("These are my least favourite colours: ${colours.allColoursExceptTheFirst3()} ")
 }
