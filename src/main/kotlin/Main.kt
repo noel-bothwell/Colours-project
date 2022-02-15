@@ -12,7 +12,7 @@
 //  5. NOTE that you should not change the function names, parameters or return types when working on the fixes - to
 //     do so will also result in a reduced mark.
 
-private val colours = Colours();
+private val colours = Colours()
 
 fun main(args: Array<String>){
 
@@ -65,4 +65,6 @@ fun main(args: Array<String>){
     println("These are all the colours except the first three: ${colours.allColoursExceptTheFirst3()} ")
 
     println("These are my favourite colours: ${colours.myFavouriteColours(5)} ")
+
+    println("red has ${colours.firstColourSize(3)} characters")
 }

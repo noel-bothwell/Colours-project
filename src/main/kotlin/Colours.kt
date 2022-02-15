@@ -65,5 +65,11 @@ class Colours {
 
     fun myFavouriteColours(size: Int) : List<String>{
         return colours.filter { it.length < 5} .map { it.uppercase() }
+        //returns the colours that are less than 5 characters long and capitilises them
+    }
+
+    fun firstColourSize(size: Int) : Int {
+        return colours.first().length
+        //returns the character length of the first string
     }
 }
