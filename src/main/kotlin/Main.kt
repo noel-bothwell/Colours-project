@@ -53,7 +53,7 @@ fun main(args: Array<String>){
     println("The list of colours, each printed on a new line is:")
         //TODO Write Code here (below this comment) to print the list in this format:
 
-    println("Colour: ${colours.getAll().forEach {println(it)}} ")
+    println("Colour: " + "${colours.getAll().forEach {println(it)}} ")
 
     val coloursText = """
         > Colour: Red
@@ -75,5 +75,7 @@ fun main(args: Array<String>){
 
     //TODO for the three additional functions you wrote in Colours.kt, print the returned value here.
 
-    println("These are my least favourite colours: ${colours.allColoursExceptTheFirst3()} ")
+    println("These are all the colours except the first three: ${colours.allColoursExceptTheFirst3()} ")
+
+    println("These are my favourite colours: ${colours.myFavouriteColours(5)} ")
 }

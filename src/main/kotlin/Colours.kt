@@ -62,4 +62,8 @@ class Colours {
         return colours.drop(3)
         //returns all colours except the first 3
     }
+
+    fun myFavouriteColours(size: Int) : List<String>{
+        return colours.filter { it.length < 5} .map { it.uppercase() }
+    }
 }
