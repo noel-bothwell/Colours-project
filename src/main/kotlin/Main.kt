@@ -53,20 +53,7 @@ fun main(args: Array<String>){
     println("The list of colours, each printed on a new line is:")
         //TODO Write Code here (below this comment) to print the list in this format:
 
-    println("Colour: " + "${colours.getAll().forEach {println(it)}} ")
-
-    val coloursText = """
-        > Colour: Red
-        > Colour: Orange
-        > Colour: Yellow
-        > Colour: Green
-        > Colour: Blue
-        > Colour: Indigo
-        > Colour: Violet
-        > Colour: Black
-        > Colour: Silver
-        """.trimMargin(">")
-    println(coloursText)
+    colours.getAll().forEach {println("Colour: ${it}")}
 
         //    Colour: Red
         //    Colour: Orange
