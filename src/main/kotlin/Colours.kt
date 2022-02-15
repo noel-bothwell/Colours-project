@@ -50,9 +50,9 @@ class Colours {
     fun isColourInTheList(colours : String) : Boolean{
         //TODO return true of the colour passed as a parameter is in the list and false otherwise
         // Note: the search should be case insensitive - if blue is passed as a parameter it should find Blue, BLUE etc.
-        if (colours.contains(("Blue")))
-        return true
-        else return false
+         (colours.contains(("Blue")))
+            return true
+
     }
 
     //TODO Write THREE additional functions of your choice that will perform some sort of
